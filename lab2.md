@@ -1,7 +1,8 @@
-#**LAB REPORT 2 - SEVERS AND SSH KEYS**
+# **LAB REPORT 2 - SEVERS AND SSH KEYS**
 -
 - Emma Nguyen
-- PID: A18021060
+- PID A18021060
+  
 -
 **1. Part 1**
 -
@@ -9,10 +10,11 @@
 import java.io.IOException;
 import java.net.URI;
 
-class Handler implements URLHandler {
+
+    class Handler implements URLHandler {
     int num = 0;
     String str = " ";
-
+    
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
             return(str);
@@ -47,16 +49,16 @@ class Handler implements URLHandler {
 ![Hello](part1-image1)
 - [b.1] Methods are called: getpath(), equals(), split(), getQuery(), String.format(), Integer.toString(), Integer.parseInt()
 - [b.2] Relevant arguments to those methods:
- - getpath(): no argument
-  - equals("/"): argument is "/"
-  - equals("/add-message"): argument is "/add-message"
-  - equals("s"): argument is "s"
-  - Integer.toString(num): argument is "num"
-- String.format(str): argument is "str"
--
+  - getpath(): no argument.
+  - equals("/"): argument is "/".
+  - equals("/add-message"): argument is "/add-message".
+  - equals("s"): argument is "s".
+  - Integer.toString(num): argument is "num".
+  - String.format(str): argument is "str".
+
 - [b.3] The values of these relevant fields of the class:
-- getPath().equals("/add-message"): the value is "/add-message"
- - url.getQuery().split("="): the value is "="
+  - getPath().equals("/add-message"): the value is "/add-message"
+  - url.getQuery().split("="): the value is "="
   - parameters[0].equals("s"): the value is "s"
   - Integer.parseInt(args[0]): the value is "4000"
   - String.format(str): the value is "1.Hello"
