@@ -5,7 +5,7 @@
   
 
 1. Part 1
-..1.StringServer.java code:
+- [a] StringServer.java code:
 
 
 .
@@ -47,7 +47,7 @@
     
 
 -
-..2. Screenshots of using /add-message "Hello"
+- [b] Screenshots of using /add-message "Hello"
 ..*
 ![Hello](part1-image1)
    Methods are called: getpath(), equals(), split(), getQuery(), String.format(), Integer.toString(), Integer.parseInt()
@@ -87,7 +87,7 @@
   - String.format(str): the value is "1.How are you"
   -
   -
-**2. Part 2**
+2. Part 2
 -
 [a] The path to the private key for my SSH key for logging into ieng6
 ![Private SSH Key](part2-image1.png)
@@ -100,7 +100,7 @@
 - ![Log into my ieng6 course-specific account with passwork](part2-image3.png)
 -
 -
-**3. Part 3**
+3. Part 3
 - There are many things that I've learned from the lab in week 2 and 3 that I did not know before:
   - Remotely connect to a server from your local computer by key work "ssh"
   - Generate a public SSH Key by run "ssh-keygen" command from my local terminal.
