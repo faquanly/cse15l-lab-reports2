@@ -1,10 +1,8 @@
 # **LAB REPORT 2 - SEVERS AND SSH KEYS**
 
 
-
 1. Part 1
 - [a] StringServer.java code:
-
 
 .
    
@@ -46,9 +44,9 @@
 
 -
 - [b] Screenshots of using /add-message "Hello"
-..*
-![Hello](part1-image1)
-   Methods are called: getpath(), equals(), split(), getQuery(), String.format(), Integer.toString(), Integer.parseInt()
+
+![Hello](part1-image1.png)
+- Methods are called: getpath(), equals(), split(), getQuery(), String.format(), Integer.toString(), Integer.parseInt()
 - [b.2] Relevant arguments to those methods:
   - getpath(): no argument.
   - equals("/"): argument is "/".
@@ -57,16 +55,16 @@
   - Integer.toString(num): argument is "num".
   - String.format(str): argument is "str".
 
-[b.3] The values of these relevant fields of the class:
+- [b.3] The values of these relevant fields of the class:
   - getPath().equals("/add-message"): the value is "/add-message"
   - url.getQuery().split("="): the value is "="
   - parameters[0].equals("s"): the value is "s"
   - Integer.parseInt(args[0]): the value is "4000".
   - String.format(str): the value is "1.Hello".
  
-  -
-[c] Screenshots of using /add-message "How are you"
-- ![How are you](part1-image2)
+  
+- [c] Screenshots of using /add-message "How are you".
+- ![How are you image](part1-image2.png)
 - [c.1] Methods are called: getpath(), equals(), split(), getQuery(), String.format(), Integer.toString(), Integer.parseInt()
 - [c.2] Relevant arguments to those methods:
   - getpath(): no argument
@@ -77,7 +75,7 @@
   - String.format(str): argument is "str".
   
   
-[c.3] The values of these relevant fields of the class:
+- [c.3] The values of these relevant fields of the class:
   - getPath().equals("/add-message"): the value is "/add-message"
   - url.getQuery().split("="): the value is "="
   - parameters[0].equals("s"): the value is "s"
