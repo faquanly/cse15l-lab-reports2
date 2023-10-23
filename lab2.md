@@ -5,7 +5,7 @@
   
 
 1. Part 1
-..*StringServer.java code:
+..1.StringServer.java code:
 
 
 .
@@ -47,10 +47,10 @@
     
 
 -
-[b] Screenshots of using /add-message "Hello"
--
+..2. Screenshots of using /add-message "Hello"
+..*
 ![Hello](part1-image1)
-- [b.1] Methods are called: getpath(), equals(), split(), getQuery(), String.format(), Integer.toString(), Integer.parseInt()
+   Methods are called: getpath(), equals(), split(), getQuery(), String.format(), Integer.toString(), Integer.parseInt()
 - [b.2] Relevant arguments to those methods:
   - getpath(): no argument.
   - equals("/"): argument is "/".
