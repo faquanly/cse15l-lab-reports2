@@ -1,5 +1,6 @@
-**LAB REPORT 2**
--**Emma Nguyen
+#**LAB REPORT 2 - SEVERS AND SSH KEYS**
+-
+**Emma Nguyen
 -PID: A18021060**
 -
 **1. Part 1**
