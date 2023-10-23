@@ -83,7 +83,7 @@
   - parameters[0].equals("s"): the value is "s"
   - Integer.parseInt(args[0]): the value is "4000"
   - String.format(str): the value is "1.How are you"
--
+
 **2. Part 2**
 -
 [a] The path to the private key for my SSH key for logging into ieng6
@@ -97,7 +97,7 @@
 - ![Log into my ieng6 course-specific account with passwork](part2-image3.png)
 -
 
-3. Part 3
+**3. Part 3**
 - There are many things that I've learned from the lab in week 2 and 3 that I did not know before:
   - Remotely connect to a server from your local computer by key work "ssh"
   - Generate a public SSH Key by run "ssh-keygen" command from my local terminal.
