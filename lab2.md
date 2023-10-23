@@ -3,7 +3,7 @@
 ## Emma Nguyen
 ### PID A18021060
   
--
+
  **1. Part 1**
 -
 
@@ -63,8 +63,9 @@
   - getPath().equals("/add-message"): the value is "/add-message"
   - url.getQuery().split("="): the value is "="
   - parameters[0].equals("s"): the value is "s"
-  - Integer.parseInt(args[0]): the value is "4000"
-  - String.format(str): the value is "1.Hello"
+  - Integer.parseInt(args[0]): the value is "4000".
+  - String.format(str): the value is "1.Hello".
+ 
   -
 [c] Screenshots of using /add-message "How are you"
 - ![How are you](part1-image2)
@@ -73,10 +74,11 @@
   - getpath(): no argument
   - equals("/"): argument is </>
   - equals("/add-message"): argument is "/add-message"
-  - equals("s"): argument is "s"
-  - Integer.toString(num): argument is "num"
-  - String.format(str): argument is "str"
-  -
+  - equals("s"): argument is "s".
+  - Integer.toString(num): argument is "num".
+  - String.format(str): argument is "str".
+  
+  
 [c.3] The values of these relevant fields of the class:
   - getPath().equals("/add-message"): the value is "/add-message"
   - url.getQuery().split("="): the value is "="
@@ -100,9 +102,9 @@
 -
 **3. Part 3**
 - There are many things that I've learned from the lab in week 2 and 3 that I did not know before:
-  [1] Remotely connect to a server from your local computer by key work "ssh"
-  [2] Generate a public SSH Key by run "ssh-keygen" command from my local terminal.
-  [3] Be able to distinguish private SSH Key and public SSH Key.
-  [4] In order not to enter password everytime log into my remote server, I can generate a public SSH Key in my local computer and copy it to the remote server.
-  [5] Use "scp" command to copy a path to public SSH Key into a specific remote account.
+  - Remotely connect to a server from your local computer by key work "ssh"
+  - Generate a public SSH Key by run "ssh-keygen" command from my local terminal.
+  - Be able to distinguish private SSH Key and public SSH Key.
+  - In order not to enter password everytime log into my remote server, I can generate a public SSH Key in my local computer and copy it to the remote server.
+  - Use "scp" command to copy a path to public SSH Key into a specific remote account.
 
