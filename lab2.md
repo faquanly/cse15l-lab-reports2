@@ -89,7 +89,7 @@ class Handler implements URLHandler {
 [b] The path to the public key for my SSH key for logging into ieng6
 ![Public SSH Key](part2-image2.png)
 
-[c] A terminal interaction where you log into ieng6 without being asked for a password
+-[c] A terminal interaction where you log into ieng6 without being asked for a password
 ![Log into my ieng6 course-specific account with passwork](part2-image3.png
 -
 -
