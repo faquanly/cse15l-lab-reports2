@@ -1,11 +1,11 @@
 #**LAB REPORT 2 - SEVERS AND SSH KEYS**
 -
 **Emma Nguyen
--PID: A18021060**
+- PID: A18021060**
 -
-**1. Part 1**
-[a] The code for String Server:
+**2. Part 1**
 -
+  
 import java.io.IOException;
 import java.net.URI;
 
@@ -40,19 +40,20 @@ class Handler implements URLHandler {
     }
     }
     
+
 -
 [b] Screenshots of using /add-message "Hello"
 -
 ![Hello](part1-image1)
 [b.1] Methods are called: getpath(), equals(), split(), getQuery(), String.format(), Integer.toString(), Integer.parseInt()
 [b.2] Relevant arguments to those methods:
-  - getpath(): no argument
+ - getpath(): no argument
   - equals("/"): argument is "/"
   - equals("/add-message"): argument is "/add-message"
   - equals("s"): argument is "s"
   - Integer.toString(num): argument is "num"
- - String.format(str): argument is "str"
-  -
+- String.format(str): argument is "str"
+ -
 [b.3] The values of these relevant fields of the class:
   - getPath().equals("/add-message"): the value is "/add-message"
  - url.getQuery().split("="): the value is "="
