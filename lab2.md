@@ -1,6 +1,6 @@
 **LAB REPORT 2**
--**Emma Nguyen**
-- **PID: A18021060**
+-**Emma Nguyen
+-PID: A18021060**
 -
 **1. Part 1**
 [a] The code for String Server:
@@ -14,7 +14,6 @@ class Handler implements URLHandler {
 
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
-            //return String.format("Number: %d", num);
             return(str);
         } else if (url.getPath().equals("/add-message")) {
             String[] parameters = url.getQuery().split("=");
@@ -26,8 +25,8 @@ class Handler implements URLHandler {
             return "404 Not Found!";
         }
     }
-
-class StringServer {
+    
+    class StringServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
@@ -38,7 +37,9 @@ class StringServer {
 
         Server.start(port, new Handler());
     }
-}
+    }
+    
+-
 [b] Screenshots of using /add-message "Hello"
 ![Hello](part1-image1)
 [b.1] Methods are called: getpath(), equals(), split(), getQuery(), String.format(), Integer.toString(), Integer.parseInt()
