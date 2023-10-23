@@ -3,7 +3,7 @@
 **Emma Nguyen
 - PID: A18021060**
 -
-**2. Part 1**
+**1. Part 1**
 -
   
 import java.io.IOException;
@@ -45,8 +45,8 @@ class Handler implements URLHandler {
 [b] Screenshots of using /add-message "Hello"
 -
 ![Hello](part1-image1)
-[b.1] Methods are called: getpath(), equals(), split(), getQuery(), String.format(), Integer.toString(), Integer.parseInt()
-[b.2] Relevant arguments to those methods:
+- [b.1] Methods are called: getpath(), equals(), split(), getQuery(), String.format(), Integer.toString(), Integer.parseInt()
+- [b.2] Relevant arguments to those methods:
  - getpath(): no argument
   - equals("/"): argument is "/"
   - equals("/add-message"): argument is "/add-message"
@@ -54,17 +54,17 @@ class Handler implements URLHandler {
   - Integer.toString(num): argument is "num"
 - String.format(str): argument is "str"
  -
-[b.3] The values of these relevant fields of the class:
+- [b.3] The values of these relevant fields of the class:
   - getPath().equals("/add-message"): the value is "/add-message"
  - url.getQuery().split("="): the value is "="
   - parameters[0].equals("s"): the value is "s"
   - Integer.parseInt(args[0]): the value is "4000"
   - String.format(str): the value is "1.Hello"
   -
-[c] Screenshots of using /add-message "How are you"
+- [c] Screenshots of using /add-message "How are you"
 ![How are you](part1-image2)
-[c.1] Methods are called: getpath(), equals(), split(), getQuery(), String.format(), Integer.toString(), Integer.parseInt()
-[c.2] Relevant arguments to those methods:
+- [c.1] Methods are called: getpath(), equals(), split(), getQuery(), String.format(), Integer.toString(), Integer.parseInt()
+- [c.2] Relevant arguments to those methods:
   - getpath(): no argument
   - equals("/"): argument is </>
   - equals("/add-message"): argument is "/add-message"
@@ -72,7 +72,7 @@ class Handler implements URLHandler {
   - Integer.toString(num): argument is "num"
   - String.format(str): argument is "str"
   -
-[c.3] The values of these relevant fields of the class:
+- [c.3] The values of these relevant fields of the class:
   - getPath().equals("/add-message"): the value is "/add-message"
   - url.getQuery().split("="): the value is "="
   - parameters[0].equals("s"): the value is "s"
@@ -80,7 +80,7 @@ class Handler implements URLHandler {
   - String.format(str): the value is "1.How are you"
   -
   -
-**2. Part 2**
+-**2. Part 2**
 -
 [a] The path to the private key for my SSH key for logging into ieng6
 ![Private SSH Key](part2-image1.png)
@@ -93,7 +93,7 @@ class Handler implements URLHandler {
 ![Log into my ieng6 course-specific account with passwork](part2-image3.png
 -
 -
-**3. Part 3**
+-**3. Part 3**
 - There are many things that I've learned from the lab in week 2 and 3 that I did not know before:
   [1] Remotely connect to a server from your local computer by key work "ssh"
   [2] Generate a public SSH Key by run "ssh-keygen" command from my local terminal.
