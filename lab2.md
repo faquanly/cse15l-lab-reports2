@@ -1,11 +1,10 @@
 # **LAB REPORT 2 - SEVERS AND SSH KEYS**
 
 
-1. Part 1
+**1. Part 1**
 - [a] StringServer.java code:
 
-.
-   
+   ```
     import java.io.IOException;
     import java.net.URI;
     
@@ -40,13 +39,13 @@
         Server.start(port, new Handler());
     }
     }
-    
+    ```
 
--
+
 - [b] Screenshots of using /add-message "Hello"
 
 ![Hello](part1-image1.png)
-- Methods are called: getpath(), equals(), split(), getQuery(), String.format(), Integer.toString(), Integer.parseInt()
+- In the main method handleRequest, some other methods are called `getpath()`, `equals()`, `split()`, `getQuery()`, `String.format()`, `Integer.toString()`, `Integer.parseInt()`
 - [b.2] Relevant arguments to those methods:
   - getpath(): no argument.
   - equals("/"): argument is "/".
@@ -83,17 +82,16 @@
   - String.format(str): the value is "1.How are you"
 
 **2. Part 2**
--
-[a] The path to the private key for my SSH key for logging into ieng6
+- [a] The path to the private key for my SSH key for logging into ieng6
 ![Private SSH Key](part2-image1.png)
 - Working directory: /home/linux/ieng6/cs15lfa23/cs15lfa23jz/.ssh
+- Private SSH Key: 
   
 [b] The path to the public key for my SSH key for logging into ieng6
 ![Public SSH Key](part2-image2.png)
 
 - [c] A terminal interaction where you log into ieng6 without being asked for a password
 - ![Log into my ieng6 course-specific account with passwork](part2-image3.png)
--
 
 **3. Part 3**
 - There are many things that I've learned from the lab in week 2 and 3 that I did not know before:
