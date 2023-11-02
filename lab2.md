@@ -84,8 +84,10 @@
 **2. Part 2**
 - [a] The path to the private key for my SSH key for logging into ieng6
 ![Private SSH Key](part2-image1.png)
+
+- Private SSH Key: id_rsa
+- Public SSH Key: id_rsa.pub
 - Working directory: /home/linux/ieng6/cs15lfa23/cs15lfa23jz/.ssh
-- Private SSH Key: 
   
 [b] The path to the public key for my SSH key for logging into ieng6
 ![Public SSH Key](part2-image2.png)
