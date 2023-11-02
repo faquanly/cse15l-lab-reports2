@@ -45,41 +45,40 @@
 - [b] Screenshots of using /add-message "Hello"
 
 ![Hello](part1-image1.png)
-- In the main method handleRequest, some other methods are called `getpath()`, `equals()`, `split()`, `getQuery()`, `String.format()`, `Integer.toString()`, `Integer.parseInt()`
+- In the main method `handleRequest`, some other methods are called `getpath()`, `equals()`, `split()`, `getQuery()`, `String.format()`, `Integer.toString()`, `Integer.parseInt()`
 - [b.2] Relevant arguments to those methods:
-  - getpath(): no argument.
-  - equals("/"): argument is "/".
-  - equals("/add-message"): argument is "/add-message".
-  - equals("s"): argument is "s".
-  - Integer.toString(num): argument is "num".
-  - String.format(str): argument is "str".
+  - `getpath()`: no argument.
+  - `equals("/")`: argument is "/".
+  - `equals("/add-message")`: argument is "/add-message".
+  - `equals("s")`: argument is "s".
+  - `Integer.toString(num)`: argument is "num".
+  - `String.format(str)`: argument is "str".
 
 - [b.3] The values of these relevant fields of the class:
-  - getPath().equals("/add-message"): the value is "/add-message"
-  - url.getQuery().split("="): the value is "="
-  - parameters[0].equals("s"): the value is "s"
-  - Integer.parseInt(args[0]): the value is "4000".
-  - String.format(str): the value is "1.Hello".
+  - `getPath().equals("/add-message")`: the value is "/add-message"
+  - `url.getQuery().split("=")`: the value is "="
+  - `parameters[0].equals("s")`: the value is "s"
+  - `Integer.parseInt(args[0])`: the value is "4000".
+  - `String.format(str)`: the value is "1.Hello".
  
   
 - [c] Screenshots of using /add-message "How are you".
 - ![How are you image](part1-image2.png)
-- [c.1] Methods are called: getpath(), equals(), split(), getQuery(), String.format(), Integer.toString(), Integer.parseInt()
+- [c.1] In the main method `handleRequest`, some other methods are called `getpath()`, `equals()`, `split()`, `getQuery()`, `String.format()`, `Integer.toString()`, `Integer.parseInt()`
 - [c.2] Relevant arguments to those methods:
-  - getpath(): no argument
-  - equals("/"): argument is </>
-  - equals("/add-message"): argument is "/add-message"
-  - equals("s"): argument is "s".
-  - Integer.toString(num): argument is "num".
-  - String.format(str): argument is "str".
-  
+  - `getpath()`: no argument
+  - `equals("/")`: argument is </>
+  - `equals("/add-message")`: argument is "/add-message"
+  - `equals("s")`: argument is "s".
+  - `Integer.toString(num)`: argument is "num".
+  - `String.format(str)`: argument is "str".  
   
 - [c.3] The values of these relevant fields of the class:
-  - getPath().equals("/add-message"): the value is "/add-message"
-  - url.getQuery().split("="): the value is "="
-  - parameters[0].equals("s"): the value is "s"
-  - Integer.parseInt(args[0]): the value is "4000"
-  - String.format(str): the value is "1.How are you"
+  - `getPath().equals("/add-message")`: the value is "/add-message"
+  - `url.getQuery().split("=")`: the value is "="
+  - `parameters[0].equals("s")`: the value is "s"
+  - `Integer.parseInt(args[0])`: the value is "4000"
+  - `String.format(str)`: the value is "1.How are you"
 
 **2. Part 2**
 - [a] The path to the private key for my SSH key for logging into ieng6
